@@ -1,4 +1,4 @@
-package chap1;
+package chap01;
 // Q4. 세 값의 대소 관계인 13가지 조합의 중앙값을 구하여 출력하는 프로그램 작성
 
 public class Q4_med3 {

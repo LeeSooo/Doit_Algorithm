@@ -1,4 +1,4 @@
-package chap1;
+package chap01;
 // 1-1. 3개의 정숫값을 입력하고 최댓값을 구하여 출력
 
 /* (1) 입력 : a, b, c
@@ -9,7 +9,7 @@ package chap1;
 
 import java.util.Scanner;
 
-class Ex1_Max3 {
+class Ex01_Max3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

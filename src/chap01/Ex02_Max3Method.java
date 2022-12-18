@@ -1,4 +1,4 @@
-package chap1;
+package chap01;
 // 1-2. 3개의 정숫값 가운데 최댓값을 구하여 출력
 
 /* (1) 입력 : a, b, c
@@ -7,7 +7,7 @@ package chap1;
  * (4) c와 max 비교. (만약 c가 max보다 크다면, max = c)
  */
 
-class Ex2_Max3Method {
+class Ex02_Max3Method {
 	
 	// a, b, c의 최댓값을 구하여 반환하는 메소드
     static int max3(int a, int b, int c) {

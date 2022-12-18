@@ -1,8 +1,9 @@
+package chap01;
 // +와 -를 번갈아 출력(1)(개선)
 
 import java.util.Scanner;
 
-class Alternative1a {
+class Ex12_Alternative1a {
 
     public static void main(String[] args) {
         Scanner stdIn = new Scanner(System.in);

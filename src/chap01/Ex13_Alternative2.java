@@ -1,8 +1,9 @@
-// +와 -를 번갈아 출력(1)
+package chap01;
+// +와 -를 번갈아 출력(2)
 
 import java.util.Scanner;
 
-class Alternative1 {
+class Ex13_Alternative2 {
 
     public static void main(String[] args) {
         Scanner stdIn = new Scanner(System.in);
@@ -15,10 +16,10 @@ class Alternative1 {
             n = stdIn.nextInt();
         } while (n <= 0);
 
-        for (int i = 0; i < n; i++)
-            if (i % 2 == 0)                    // 짝수
-                System.out.print("+");
-            else                               // 홀수
-                System.out.print("-");
+        for (int i = 0; i < n / 2; i++)
+            System.out.print("+-");
+
+        if (n % 2 != 0)
+            System.out.print("+");
     }
 }

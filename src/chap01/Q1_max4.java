@@ -1,4 +1,4 @@
-package chap1;
+package chap01;
 // Q1. 네 값의 최대갓ㅂ을 구하는 max4 메서드를 작성하세요.
 
 import java.util.Scanner;

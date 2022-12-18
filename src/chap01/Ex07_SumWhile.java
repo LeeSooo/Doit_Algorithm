@@ -1,9 +1,9 @@
-package chap1;
+package chap01;
 // while 문으로 1, 2, …, n의 합을 구함
 
 import java.util.Scanner;
 
-class Ex7_SumWhile {
+class Ex07_SumWhile {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

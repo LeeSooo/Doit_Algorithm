@@ -1,9 +1,9 @@
-package chap1;
-// 입력한 정숫값을 판단(1)
+package chap01;
+// 입력한 정숫값을 판단(2)
 
 import java.util.Scanner;
 
-class Ex4_JudgeABC1 {
+class Ex05_JudgeABC2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -15,7 +15,7 @@ class Ex4_JudgeABC1 {
             System.out.println("Ａ");
         else if (n == 2)
             System.out.println("Ｂ");
-        else
+        else if (n == 3)
             System.out.println("Ｃ");
     }
 }

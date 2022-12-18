@@ -1,4 +1,4 @@
-package chap1;
+package chap01;
 // 1-3. 입력한 정숫값의 부호(양수/음수/0)를 판단
 
 /* (1) 입력 : n
@@ -9,7 +9,7 @@ package chap1;
 
 import java.util.Scanner;
 
-class Ex3_JudgeSign {
+class Ex03_JudgeSign {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

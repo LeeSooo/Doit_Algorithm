@@ -1,4 +1,4 @@
-package chap1;
+package chap01;
 // Q6. while문이 종료될 때 변수 i값이 n + 1이 되는지 확인.
 
 import java.util.Scanner;

@@ -1,3 +1,4 @@
+package chap01;
 // 이중 루프로 구구단 곱셈표를 출력
 
 public class Multi99Table {
