@@ -3,7 +3,7 @@ package chap01;
 
 import java.util.Scanner;
 
-class Q5_Median {
+class Q05_Median {
     static int med3(int a, int b, int c) {
         /*if (a >= b)
             if (b >= c)
@@ -36,7 +36,7 @@ class Q5_Median {
     	 * 		else if ((a > b && c < b) || (b <= a && c > b)로 수행됩니다. 
     	 * 
     	 * 즉, 처음 if가 성립하지 않는 경우,
-    	 * 2번째 if에서도 (실질적으로 ) 같은 판단을 수행하므로,
+    	 * 2번째 if에서도 (실질적으로) 같은 판단을 수행하므로,
     	 * 효율이 나빠집니다.
     	*/
     	

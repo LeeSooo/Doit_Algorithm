@@ -3,18 +3,19 @@ package chap01;
 
 import java.util.Scanner;
 
-class SumVerbose2a {
+class Ex11_SumVerbose2a {
 
     public static void main(String[] args) {
-        Scanner stdIn = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int n;
 
         System.out.println("1부터 n까지의 합을 구합니다.");
 
         do {
             System.out.print("n 값 : ");
-            n = stdIn.nextInt();
+            n = sc.nextInt();
         } while (n <= 0);
+        sc.close();
 
         int sum = 0;        // 합
 

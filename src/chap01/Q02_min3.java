@@ -9,7 +9,7 @@ package chap01;
 
 import java.util.Scanner;
 
-public class Q2_min3 {
+public class Q02_min3 {
 	public static int min3(int a, int b, int c) {
 		int min = a;
 		if(min > b)

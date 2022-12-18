@@ -1,6 +1,10 @@
 package chap01;
 // +와 -를 번갈아 출력(2)
 
+/* (1) for문을 n / 2회 출력.
+ * (2) 홀수일 경우 + 출력, 
+ */
+
 import java.util.Scanner;
 
 class Ex13_Alternative2 {
@@ -19,6 +23,7 @@ class Ex13_Alternative2 {
         for (int i = 0; i < n / 2; i++)
             System.out.print("+-");
 
+        // 홀수일 경우. + 출력
         if (n % 2 != 0)
             System.out.print("+");
     }

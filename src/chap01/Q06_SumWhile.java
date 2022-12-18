@@ -3,7 +3,7 @@ package chap01;
 
 import java.util.Scanner;
 
-public class Q6_SumWhile {
+public class Q06_SumWhile {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("1에서 n까지의 총합을 구합니다.");

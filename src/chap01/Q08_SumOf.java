@@ -3,7 +3,7 @@ package chap01;
 // 정수 a, b를 포함하여 그 사이의 모든 정수의 합을 구하여 반환하는 메서드 작성
 import java.util.Scanner;
 
-public class Q8_SumOf {
+public class Q08_SumOf {
 	static int sumof(int a, int b) {
 		int sum = 0;
 		int min;

@@ -6,18 +6,22 @@ import java.util.Scanner;
 class EX01C_Median {
     static int med3(int a, int b, int c) {
     	
-        if (a >= b)
-            if (b >= c)
+    	// 경우의 수 : 
+    	// 조건 : a >= b
+        if (a >= b)				
+            if (b >= c)			// a >= b >= c
                 return b;
-            else if (c >= a)
+            else if (c >= a)	// c >= a >= b
                 return a;
-            else
+            else				// a >= c >= b
                 return c;
-        else if (a > c)
+        
+        // 조건 : b > a
+        else if (a > c)			// b > a > c
             return a;
-        else if (b > c)
+        else if (b > c)			// b > c > a
             return c;
-        else
+        else					// c > b > a
             return b;
     }
 

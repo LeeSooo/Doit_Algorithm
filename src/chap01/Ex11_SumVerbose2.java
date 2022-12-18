@@ -1,6 +1,8 @@
 package chap01;
 // 1, 2, …, n의 합과 그 값을 구하는 과정을 출력(2)
 
+// Ex10이랑 비교할 때, for문의 반복 횟수가 n-1번으로 줄였다.
+
 import java.util.Scanner;
 
 class Ex11_SumVerbose2 {

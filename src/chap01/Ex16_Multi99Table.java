@@ -1,7 +1,7 @@
 package chap01;
 // 이중 루프로 구구단 곱셈표를 출력
 
-public class Multi99Table {
+public class Ex16_Multi99Table {
     public static void main(String[] args) {
         System.out.println("----- 구구단 곱셈표 -----");
 

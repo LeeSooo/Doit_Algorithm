@@ -4,7 +4,7 @@ package chap01;
 
 import java.util.Scanner;
 
-public class Q7_SumGauss {
+public class Q07_SumGauss {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
