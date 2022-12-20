@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Q2_ReverseArrayEx {
-
+            
 	//--- 배열 요소 a[idx1]과 a[idx2]를 교환 ---//
 	static void swap(int[] a, int idx1, int idx2) {
 		int t = a[idx1];  a[idx1] = a[idx2];  a[idx2] = t;
