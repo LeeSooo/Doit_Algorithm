@@ -27,7 +27,7 @@ public class Q5_Rcopy {
 		}
 		sc.close();
 		
-		rcopy(a, b);			// 배열 b의 모든 요소를 배열 a에 copy 
+		rcopy(a, b);			// 배열 b의 모든 요소를 배열 a에 복사
 
 		System.out.println("배열 b의 모든 요소를 배열 a에 역순으로 복사하였습니다.");
 		for (int i = 0; i < num; i++)
