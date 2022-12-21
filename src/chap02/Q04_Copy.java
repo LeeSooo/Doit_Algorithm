@@ -2,7 +2,7 @@ package chap02;
 
 import java.util.Scanner;
 
-public class Q4_Copy {
+public class Q04_Copy {
 	// 배열 b의 모든 요소를 배열 a에 복사하는 메서드 copy
 	static void copy(int[] a, int b[]) {
 		for(int i = 0; i < b.length; i++) {

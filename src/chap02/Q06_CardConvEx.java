@@ -2,7 +2,7 @@ package chap02;
 
 import java.util.Scanner;
 
-public class Q6_CardConvEx {
+public class Q06_CardConvEx {
 	//--- 정숫값 x를 r 진수로 변환하여 배열 d에 아랫자리부터 저장하고 자릿수를 반환 ---//
 	static int cardConvEx(int x, int r, char[] d) {
 		int digits = 0;											// 변환 후의 자릿수 => 진수 변환을 하기 위해 저장하는 변수.

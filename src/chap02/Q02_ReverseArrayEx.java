@@ -3,7 +3,7 @@ package chap02;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Q2_ReverseArrayEx {
+public class Q02_ReverseArrayEx {
             
 	//--- 배열 요소 a[idx1]과 a[idx2]를 교환 ---//
 	static void swap(int[] a, int idx1, int idx2) {

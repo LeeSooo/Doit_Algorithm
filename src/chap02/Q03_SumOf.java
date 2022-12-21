@@ -2,7 +2,7 @@ package chap02;
 
 import java.util.Scanner;
 
-public class Q3_SumOf {
+public class Q03_SumOf {
 	
 	// 배열 a의 모든 요소의 합계를 구하여 반환하는 메서드
 	static int sumOf(int[] a) {
