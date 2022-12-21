@@ -6,22 +6,24 @@ public class Q6_CardConvEx {
 	//--- 정숫값 x를 r 진수로 변환하여 배열 d에 아랫자리부터 저장하고 자릿수를 반환 ---//
 	static int cardConvEx(int x, int r, char[] d) {
 		int n = ((Integer)x).toString().length();		// 변환 전의 자릿수
-		int digits = 0;								// 변환 후의 자릿수
+		int digits = 0;									// 변환 후의 자릿수
 		String dchar = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 		System.out.printf(String.format("%%2d | %%%dd\n", n), r, x);
 		do {
-			System.out.printf("   +");
+			System.out.print("   +");
 			for (int i = 0; i < n + 2; i++)
 				System.out.print('-');
 			System.out.println();
 
-			if (x / r != 0)
+			// 몫이 0 이 아닐 경우.
+			if (x / r != 0)					//   진수	  | 몫		 ... 나머지
 				System.out.printf(String.format("%%2d | %%%dd    ... %%d\n", n),
-												r, x / r, x % r);
-			else
+												r, x / r, x % r);	// 진수, 몫, 나머지
+			
+			else							//	 진수	  | 몫	   ... 나머지
 				System.out.printf(String.format("     %%%dd    ... %%d\n", n),
-												x / r, x % r);
+												x / r, x % r);		// 진수, 몫, 나머지
 			d[digits++] = dchar.charAt(x % r);   // r 로 나눈 나머지를 저장
 			x /= r;
 		} while (x != 0);

@@ -1,6 +1,7 @@
+package chap02;
 // 1,000 이하의 소수를 나열(버전 1）
 
-class PrimeNumber1 {
+class Ex07_PrimeNumber1 {
     public static void main(String[] args) {
         int counter = 0;        // 나눗셈 횟수
 
