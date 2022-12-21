@@ -5,21 +5,12 @@ import java.util.Scanner;
 public class Q6_CardConvEx {
 	//--- 정숫값 x를 r 진수로 변환하여 배열 d에 아랫자리부터 저장하고 자릿수를 반환 ---//
 	static int cardConvEx(int x, int r, char[] d) {
-		int n = ((Integer)x).toString().length();		// 변환 전의 자릿수 => 자리 수 만큼 '_' 이 기호를 채우기 위한 존재. 
-														// => 문자열로 변환 후 문자열 길이를 체크!
-		
 		int digits = 0;									// 변환 후의 자릿수 => 진수 변환을 하기 위해 저장하는 변수.
 		String dchar = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 		System.out.println(r + " | " +  x);
 		do {
-			System.out.print("  +");
-			
-			// 문자열 자리 수 만큼 '_' 입력
-			for (int i = 0; i < n + 2; i++)
-				System.out.print('-');
-			
-			System.out.println();
+			System.out.println("  +__________");
 
 			// 몫이 0 이 아닐 경우.
 			if (x / r != 0)	
@@ -54,11 +45,13 @@ public class Q6_CardConvEx {
 
 		System.out.println("10진수를 기수 변환합니다.");
 		do {
+			// 정수 입력
 			do {
 				System.out.print("변환하는 음이 아닌 정수 : ");
 				no = sc.nextInt();
 			} while (no < 0);
 
+			// 진수 입력
 			do {
 				System.out.print("어떤 진수로 변환할까요? (2-36) : ");
 				cd = sc.nextInt();
@@ -67,8 +60,10 @@ public class Q6_CardConvEx {
 			dno = cardConvEx(no, cd, cno);		// no를 cd진수로 변환
 
 			System.out.print(cd + "진수로는 ");
-			for (int i = 0; i < dno; i++)			// 순서로 출력
+			// 진수 변환된 결과 값을 순서대로 출력
+			for (int i = 0; i < dno; i++)			
 				System.out.print(cno[i]);
+			
 			System.out.println("입니다.");
 
 			System.out.print("한 번 더 할까요? (1 ... 예 / 0 ... 아니오) : ");
