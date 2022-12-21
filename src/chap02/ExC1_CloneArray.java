@@ -1,8 +1,9 @@
+package chap02;
 // 배열의 복제 배열을 만듭니다.
 
 import java.util.Arrays;
 
-class CloneArray {
+class ExC1_CloneArray {
 
     public static void main(String[] args) {
         int[] a = {1, 2, 3, 4, 5};

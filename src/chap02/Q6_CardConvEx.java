@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class Q6_CardConvEx {
 	//--- 정숫값 x를 r 진수로 변환하여 배열 d에 아랫자리부터 저장하고 자릿수를 반환 ---//
 	static int cardConvEx(int x, int r, char[] d) {
-		int digits = 0;									// 변환 후의 자릿수 => 진수 변환을 하기 위해 저장하는 변수.
+		int digits = 0;											// 변환 후의 자릿수 => 진수 변환을 하기 위해 저장하는 변수.
 		String dchar = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 		System.out.println(r + " | " +  x);
 		do {
-			System.out.println("  +__________");
+			System.out.println("  +-----");
 
 			// 몫이 0 이 아닐 경우.
 			if (x / r != 0)	

@@ -1,6 +1,7 @@
+package chap02;
 // 배열의 모든 요소의 합을 구하여 출력(확장 for 문）
 
-class ArraySumForIn {
+class ExC2_ArraySumForIn {
     public static void main(String[] args) {
         double[] a = { 1.0, 2.0, 3.0, 4.0, 5.0 };
 
