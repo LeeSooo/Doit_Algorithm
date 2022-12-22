@@ -1,8 +1,9 @@
+package chap03;
 // 선형검색(for문)
 
 import java.util.Scanner;
 
-class SeqSearchFor {
+class Ex02_SeqSearchFor {
     //--- 요솟수가 n인 배열 a에서 key와 값이 같은 요소를 선형 검색 ---//
     static int seqSearch(int[] a, int n, int key) {
         for (int i = 0; i < n; i++)
@@ -12,20 +13,21 @@ class SeqSearchFor {
     }
 
     public static void main(String[] args) {
-        Scanner stdIn = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("요솟수: ");
-        int num = stdIn.nextInt();
+        int num = sc.nextInt();
         int[] x = new int[num];        // 요솟수가 num인 배열
 
         for (int i = 0; i < num; i++) {
             System.out.print("x[" + i + "]: ");
-            x[i] = stdIn.nextInt();
+            x[i] = sc.nextInt();
         }
 
         System.out.print("검색 값할 값: ");       // 키값을 읽어 들임
-        int ky = stdIn.nextInt();
-
+        int ky = sc.nextInt();
+        sc.close();
+        
         int idx = seqSearch(x, num, ky);    // 배열 x에서 값이 ky인 요소를 검색
 
         if (idx == -1)
