@@ -21,6 +21,7 @@ class Ex01_Max3 {
         int b = sc.nextInt();
         System.out.print("c의 값 : ");  
         int c = sc.nextInt();
+        sc.close();
         
         // 비교
         int max = a;
