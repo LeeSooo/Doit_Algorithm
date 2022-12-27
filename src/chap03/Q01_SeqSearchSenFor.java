@@ -9,8 +9,10 @@ public class Q01_SeqSearchSenFor {
 
 		a[n] = key;					// 보초를 추가
 
-		for (i = 0 ; a[i] != key; i++)
-			;
+		for (i = 0 ; a[i] != key; i++) {
+			if (a[i] == key)    // 검색 성공
+                break;
+		}
 		return i == n ? -1 : i;
 	}
 
